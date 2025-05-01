@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FRIP Personal Web</title>
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600&display=swap" rel="stylesheet">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="nav-logo">
+                <p>FRIP .</p>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#" class="link">Home</a></li>
+                    <li><a href="#about" class="link">About</a></li>
+                    <li><a href="#experience" class="link">Experience</a></li>
+                    <li><a href="#projects" class="link">Projects</a></li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <a href="#contact" class="btn">Contact Me →</a>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="text" data-aos="fade-up" data-aos-duration="1000">
+                <img src="assets/foto-ijazah.jpg" width="200" height="200" class="img-con" alt="Profile Picture">
+                <h3>Hello! My Name Is<br><span class="input"></span></h3>
+                <h4>Software Engineer</h4>
+                <h5>I'm From Wikrama Vocational High School</h5>
+                <a href="#" id="downloadCV" class="btn">Download CV</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <section class="section" id="about">
+        <div class="card" data-aos="fade-up">
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h2 class="section-title card-title">About Me</h2>
+                    <p>
+                        As a Fullstack Web Developer, I bring a balanced set of technical and interpersonal skills. I am
+                        highly organized with strong time management abilities, committed to working hard and overcoming
+                        challenges with a never-give-up attitude. I thrive in fast-paced environments, adapt quickly to
+                        change, and am equally effective working independently or as part of a team. My goal is to
+                        consistently deliver solutions that are not only functional but also impactful.
+                    </p>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <img src="assets/avatar-removebg-preview.png" alt="My Photo" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section class="section" id="experience">
+        <div class="card experience" data-aos="fade-up">
+            <h2 class="card-title">Experience</h2>
+            <div class="card-body experience-content">
+                <div class="experience-text">
+                    <li>(2024) Internship at Starcore Analytics Indonesia <br>
+                        Built and maintained fullstack applications using Laravel, Python(FastAPI) and ReactJS <br>
+                        Collaborated with teams using Github and Google Spreadsheets.
+                    </li>
+                </div>
+                <div class="experience-image">
+                    <img src="assets/starcore.png" alt="Starcore Analytics Logo">
+                    <p class="caption">191 Achmad Adnawijaya St, Bogor</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects SECTION -->
+    <section class="section" id="projects">
+        <div class="card" data-aos="fade-up">
+            <h2 class="card-title">Projects</h2>
+            <div class="card-body projects">
+                <div class="project">
+                    <img src="assets/projects/apala.png" alt="Project 1">
+                    <h3>Project Music Lessons</h3>
+                    <p>simple dashboard view for music lessons website, here I act as a Frontend Web Developer</p>
+                    <p class="languages">Languages: Figma, ReactJS</p>
+                </div>
+                <div class="project">
+                    <img src="assets/projects/api-bunik.png" alt="Project 2">
+                    <h3>Project Bu Nik Outlets</h3>
+                    <p>a simple website to calculate customer satisfaction at each outlet, at outlet groups, and at
+                        several groups from each management, here I act as a Fullstack Web Developer</p>
+                    <p class="languages">Languages: Python, ReactJS</p>
+                </div>
+                <div class="project">
+                    <img src="assets/projects/bapangnas.png" alt="Project 3">
+                    <h3>Project BAPANGNAS</h3>
+                    <p>website to analyze, make reports, and see food conditions in Indonesia in each region, here I act
+                        as Frontend Web Developer</p>
+                    <p class="languages">Languages: Laravel</p>
+                </div>
+                <div class="project">
+                    <img src="assets/projects/basic-game.png" alt="Project 4">
+                    <h3>Project Game</h3>
+                    <p>A simple game made with my team, here we are just learning how to make games in Unity</p>
+                    <p class="languages">Languages: Unity, C#</p>
+                </div>
+                <div class="project">
+                    <img src="assets/projects/cashier-app.png" alt="Project 4">
+                    <h3>Project Cashier</h3>
+                    <p>A simple website that we created to take inventory of items, as well as calculate discounts or
+                        shopping amounts like a cashier at a minimarket, here I act as a Fullstack Web Developer.</p>
+                    <p class="languages">Languages: Laravel</p>
+                </div>
+                <div class="project">
+                    <img src="assets/projects/dypedia-store.png" alt="Project 4">
+                    <h3>Project Cashier</h3>
+                    <p>The website that my team and I created to make transactions for purchasing items in games, buying
+                        internet and filling e-money, here I act as a Frontend Web Developer.</p>
+                    <p class="languages">Languages: ReactJS</p>
+                </div>
+                <div class="project">
+                    <img src="assets/projects/sim-inventaris.png" alt="Project 4">
+                    <h3>Project Cashier</h3>
+                    <p>A simple website that I created with my colleague to do inventory of items and record when
+                        students borrow items, here I act as a Fullstack Web Developer.</p>
+                    <p class="languages">Languages: Laravel</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer-sosmed" id="contact">
+        <p>Connect with me</p>
+        <div class="footer-icons">
+            <a href="https://www.instagram.com/fhrlrhz/" target="_blank" aria-label="Instagram">
+                <i class='bx bxl-instagram-alt'></i>
+            </a>
+            <a href="https://www.linkedin.com/in/fahrel-rhozian-ikhrodi-pratama-7a25a42a4/" target="_blank" aria-label="LinkedIn">
+                <i class='bx bxl-linkedin-square'></i>
+            </a>
+            <a href="http://wa.me/62881024288538" target="_blank" aria-label="WhatsApp">
+                <i class='bx bxl-whatsapp-square'></i>
+            </a>
+        </div>
+    </div>
+    
+
+    <footer class="footer">
+        <p>&copy; 2025 Fahrel Rhozian. All rights reserved.</p>
+    </footer>    
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        var typed = new Typed(".input", {
+            strings: ["Fahrel Rhozian Ikhrodi Pratama"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop: true
+        });
+
+        function myMenuFunction() {
+            var i = document.getElementById("navMenu");
+            if (i.className === "nav-menu") {
+                i.className += " responsive";
+            } else {
+                i.className = "nav-menu";
+            }
+        }
+    </script>
+    <script>
+        document.getElementById('downloadCV').addEventListener('click', function (e) {
+            e.preventDefault();
+            const link = document.createElement('a');
+            link.href = 'assets/public/CV - FAHREL RHOZIAN IKHRODI PRATAMA.pdf';
+            link.download = 'CV-Fahrel-Rhozian-Ikhrodi-Pratama.pdf';
+            link.click();
+        });
+    </script>
+    
+</body>
+
+</html>
